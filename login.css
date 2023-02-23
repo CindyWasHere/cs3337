@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 25px 50px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.appName {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: blue;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.signin {
+    border-radius: 10px;
+}
